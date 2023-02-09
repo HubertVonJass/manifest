@@ -30,8 +30,8 @@
   <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="lineage" />
   <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" remote="lineage" />
   <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="android_hardware_qcom_sm8150_data_ipacfg-mgr" remote="lineage" />
-  <project path="tmp/hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" />
-  <project path="tmp/hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="lineage" />
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" />
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="lineage" />
 
   <!-- Add from HubertVonJass -->
   <project path="device/google/redfin" name="android_device_google_redfin_13" remote="hughjass" />

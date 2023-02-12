@@ -10,19 +10,14 @@
            fetch="https://github.com/HubertVonJass"
            revision="refs/heads/lineage-20" />
 
-  <!-- Github (LineageOS) -->
-  <remote  name="lineage"
-           fetch="https://github.com/LineageOS"
-           revision="refs/heads/lineage-20.0" />
-
   <!-- Delete these repos -->
-  <remove-project name="hardware/qcom/sm7250/media" />
-  <remove-project name="hardware/qcom/sm7250/display" />
-  <remove-project name="hardware/qcom/sm8150/display" />
-  <remove-project name="hardware/qcom/sm8150/media" />
-  <remove-project name="hardware/qcom/sm8150/data/ipacfg-mgr" />
-  <remove-project name="hardware/google/pixel" />
-  <remove-project name="hardware/google/pixel-sepolicy" />
+  <remove-project name="platform/hardware/qcom/sm7250/media" />
+  <remove-project name="platform/hardware/qcom/sm7250/display" />
+  <remove-project name="platform/hardware/qcom/sm8150/display" />
+  <remove-project name="platform/hardware/qcom/sm8150/media" />
+  <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/google/pixel" />
+  <remove-project name="platform/hardware/google/pixel-sepolicy" />
 
   <!-- Add from LineageOS -->
   <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" remote="lineage" />
